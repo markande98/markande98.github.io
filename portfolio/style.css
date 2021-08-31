@@ -271,12 +271,18 @@ ul{
 }
 
 @media screen and (min-width: 368px) and (max-width: 700px){
+    header{
+        height: 25vh;
+    }
+    .container{
+        font-size: 60%;
+    }
     .container2{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
     .container2 .image{
-        width: 40vw;
+        width: 50vw;
     }
     .container2 .image2{
         height: 100px;
@@ -307,6 +313,9 @@ ul{
     }
     .container4{
         text-align: center;
+    }
+    .container5{
+        height: 100vh;
     }
     .dataproject h4{
         margin: 17% 0;
