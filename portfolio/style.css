@@ -72,23 +72,22 @@ header{
     display: flex;
     flex-flow: row wrap;
     background-color:rgb(104, 166, 185);
-    height: 80vh;
+    height: 70vh;
 }
 .image{
     width: 40vw;
-    height: 40;
 }
 .image1{
-    width: 30vw;
-    height: 25vh;
+    width: 100px;
+    height: 100px;
     margin: 20% 15%;
-    border-radius: 70px;
+    border-radius: 100px;
 }
 .image2{
-    width: 30vw;
-    height: 25vh;
+    width: 100px;
+    height: 100px;
     margin: 23% 15%;
-    border-radius: 70px;
+    border-radius: 100px;
 }
 .about-message{
     padding: 5%;
@@ -239,7 +238,7 @@ ul{
     grid-template-columns: 0.5fr 1.8fr;
     font-size: 60%;
     text-align: center;
-    height: 23vh;
+    height: 18vh;
     background-color:seashell;
 }
 
@@ -267,33 +266,41 @@ ul{
     flex-flow: row wrap;
     margin:0;
 }
+.container6 .follow .arrange{
+    margin: 0 5%;
+}
 
 @media screen and (min-width: 368px) and (max-width: 700px){
     .container2{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .container2 .image{
+        width: 40vw;
+    }
     .container2 .image2{
-        width: 35vw;
+        height: 100px;
+        width: 100px;
         border-radius: 100px;
     }
     .container2 .image1{
-        width: 35vw;
+        height: 100px;
+        width: 100px;
         border-radius: 100px;
     }
     .about-message{
         margin: 0;
-        width: 45vw;
+        width: 40vw;
         height: 70vh;
     }
     .about-message h3{
-        font-size: 120%;
+        font-size: 100%;
     }
     .about-message p{
-        font-size: 150%;
+        font-size: 100%;
     }
     .container3{
-        font-size: 129%;
+        font-size: 100%;
     }
     .container3 .school{
         font-size: 67%;
@@ -311,7 +318,7 @@ ul{
         display: grid;
         grid-template-columns: 1fr 1fr;
         font-size: 120%;
-        height: 35vh;
+        height: 40vh;
     }
     .container6 .follow .arrange{
         display: grid;
